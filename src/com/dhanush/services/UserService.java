@@ -7,6 +7,7 @@ import com.dhanush.domain.Facility;
 import com.dhanush.domain.User;
 import com.dhanush.domain.UserRegistration;
 public interface UserService {
+	
 public void insertData(User user);
 public List<User> getUserList();
 //  public void deleteData(String id);

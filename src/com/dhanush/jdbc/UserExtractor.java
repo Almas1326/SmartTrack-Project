@@ -8,7 +8,7 @@ import org.springframework.jdbc.core.ResultSetExtractor;
 import com.dhanush.domain.User;
 
 public class UserExtractor implements ResultSetExtractor<User> {
-
+//User Exatractor
 	public User extractData(ResultSet resultSet) throws SQLException,
 			DataAccessException {
 		

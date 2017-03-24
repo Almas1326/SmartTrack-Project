@@ -69,17 +69,17 @@ public class HomePageControllerTest  {
 	         this.jdbcTemplate = new JdbcTemplate(dataSource);
 	     }
 
-	 
-	/*private UserService userservice;
-	private Connection myConnection;
-	private UserDao userdao;	
-	private User user;
-	private HomePageController home;*/
-	/*@Test
-	public void testHomePageController() {
-		fail("Not yet implemented");
-	}
-/*
+	    /*private UserService userservice;
+		private Connection myConnection;
+		private UserDao userdao;	
+		private User user;
+		private HomePageController home;*/
+		/*@Test
+		public void testHomePageController() {
+			fail("Not yet implemented");
+		}
+	/*
+	
 	@Test
 	public void testRegisterUser() {
 		fail("Not yet implemented");

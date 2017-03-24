@@ -1,6 +1,7 @@
 package com.dhanush.domain;
 
 public class UserRegistration {
+	//new user registration class
 	private String User_Id;
 	 private String Password;
 	 private String Email_Id;

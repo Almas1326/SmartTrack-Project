@@ -111,23 +111,7 @@ public class UserDaoImpl implements UserDao {
 	}
 
 	
-//method to insert data in to equipment master
-	/*@Override
-	public void insertEquipment(EquipmentMaster em) {
-		System.out.println("entering in to query"+em);
-		String sql = "INSERT INTO Equipment_Master"
-				+ "( Equipment_Id,Equipment_Type_Name,Equipment_Name,S_NO,Reg_No,Description,Start_Date,End_Date,Facility_Name) VALUES (?,?,?,?,?,?,?,?,?)";
-		
-		em.setEquipment_Type_Name("testOne");
-			
-		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 
-		jdbcTemplate.update(
-				sql,
-				new Object[] { em.getEquipment_Id(),em.getEquipment_Type_Name(), em.getEquipment_Name(),
-						em.getS_NO(),em.getReg_No(), em.getDescription(),em.getStart_Date(),em.getEnd_Date(),em.getFacility_Name()});
-		
-	}*/
 
 	@Override
 	public List<Facility> getFacilityMasterList() {

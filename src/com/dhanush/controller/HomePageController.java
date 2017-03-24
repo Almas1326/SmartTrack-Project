@@ -77,7 +77,7 @@ System.out.println("Equipment Type List: " +userList.get(0).getNAME());
 		else{
 			return "redirect:/Login";
 		}}
-	//to return user registration page
+
 	@RequestMapping("/Registration")
 	public ModelAndView  UserRegistartion() {
 		
